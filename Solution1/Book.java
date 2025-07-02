@@ -52,10 +52,4 @@ public class Book {
     public void setAvailable(boolean available) {
         isAvailable = available;
     }
-
-    // Overriding toString method for better output formatting
-    @Override
-    public String toString() {
-        return "Book ID: " + bookID + ", Title: " + title + ", Author: " + author + ", Available: " + isAvailable;
-    }
 }
