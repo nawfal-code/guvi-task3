@@ -16,7 +16,7 @@ public class Book {
         this.isAvailable = isAvailable;
     }
 
-    // Default constructor (Optional, only if needed)
+    // Default constructor(optional) 
     public Book() {
     }
 
