@@ -1,0 +1,8 @@
+package guvi.task03;
+//Create Interface  Taxable with members as in task
+public interface Taxable {
+    double salesTax=7;
+    double incomeTax=10.5;
+    //create abstract method
+    public void  calcTax();
+}
