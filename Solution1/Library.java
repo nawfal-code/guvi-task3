@@ -7,9 +7,9 @@ public class Library {
     private int bookCount = 0;
 
     public Library() {
-        this.books = new Book[5];  // You can change the size or use ArrayList for more flexibility
+        this.books = new Book[5];  
     }
-
+//method to add books
     public void addBook(Book book) {
         if (bookCount < books.length) {
             books[bookCount] = book;
@@ -18,7 +18,7 @@ public class Library {
             System.out.println("Library is full");
         }
     }
-
+//method to replace books
     public void replaceBook(int bookID) {
         boolean bookFound = false;
         Scanner sc = new Scanner(System.in);
@@ -47,7 +47,7 @@ public class Library {
             System.out.println("Book not found");
         }
     }
-
+//method to display books
     public void displayBooks() {
         for (int i = 0; i < bookCount; i++) {
             System.out.println("Book ID: " + books[i].getBookID());
